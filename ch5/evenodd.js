@@ -13,5 +13,5 @@ rl.question('정수를 입력하세요. : ', function(num){
     else{
         console.log('짝수입니다.');
     }
-    rl.close();
+    rl.close();(answer())
 });
