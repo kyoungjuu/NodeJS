@@ -6,8 +6,16 @@ outside : while (dan < 10)
     {
         if(dan ==6 && num ==1)
             break outside;
-        console.log(dan + '*' + num +'='+ dan*num);
+        console.log(dan + '*' + num +'='+ multi(dan, num));
         num++;
     }
     dan++;
+}
+
+function sum(a, b){
+    return a + b
+}
+
+function multi(a, b){
+    return a * b
 }
