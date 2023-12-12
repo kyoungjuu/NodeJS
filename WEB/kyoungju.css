@@ -1,0 +1,14 @@
+.container {
+    display: flex; /* Flex 컨테이너로 설정 */
+    justify-content: center; /* 수평 정렬: 가운데로 */
+    align-items: center; /* 수직 정렬: 가운데로 */
+    height: 300px; /* 높이 설정 */
+    border: 1px solid #ccc; /* 테두리 추가 (옵션) */
+  }
+  
+.item {
+    width: 50px; /* 각 아이템의 너비 */
+    height: 50px; /* 각 아이템의 높이 */
+    background-color: lightblue; /* 배경색 (옵션) */
+    margin: 5px; /* 아이템 간의 간격 (옵션) */
+  }
